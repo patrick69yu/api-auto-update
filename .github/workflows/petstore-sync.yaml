@@ -3,7 +3,7 @@ name: Sync Petstore to ReadMe
 on:
   push:
     paths:
-      - './swagger-*.json'
+      - 'docs/swagger-[a-z]*.json'
 
 jobs:
   build:
