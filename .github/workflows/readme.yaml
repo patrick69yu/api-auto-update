@@ -21,4 +21,4 @@ jobs:
       - uses: readmeio/github-readme-sync@v2
         with:
           readme-oas-key: ufSOhuuwlb6znJEM4JMpJUysiDBf2XRn:6118a3e2961c900d5200df8c
-          oas-file-path: "./swagger-petstore.yaml"
+          oas-file-path: "../../swagger-petstore.yaml"
