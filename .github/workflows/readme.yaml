@@ -20,5 +20,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: readmeio/github-readme-sync@v2
         with:
-          readme-oas-key: ufSOhuuwlb6znJEM4JMpJUysiDBf2XRn:6118a3e2961c900d5200df8c
-          oas-file-path: "../../swagger-petstore.yaml"
+          readme-oas-key: ufSOhuuwlb6znJEM4JMpJUysiDBf2XRn:6118a8e3901741ce28017608
+          oas-file-path: "./swagger-petstore.yaml"
+          api-version: 'v1.0.0'
