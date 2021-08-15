@@ -13,5 +13,5 @@ jobs:
       - uses: readmeio/github-readme-sync@v2
         with:
           readme-oas-key: ${{ secrets.README_PETSTORE_SECRET }}
-          oas-file-path: './petstore.json'
-          api-version: 'v1.0.0'
+          oas-file-path: "./swagger-petstore.json"
+          api-version: "v1.0.0"
