@@ -2,8 +2,8 @@ name: Sync Petstore to ReadMe
 
 on:
   push:
-    branches:
-      - master
+    paths:
+      - './swagger-*.json'
 
 jobs:
   build:
