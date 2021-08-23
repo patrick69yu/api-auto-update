@@ -3,7 +3,7 @@ name: Sync Petstore to ReadMe
 on:
   push:
     paths:
-      - 'docs/swagger-[a-z]*.json'
+      - 'docs/swagger-petstore.yaml'
 
 jobs:
   build:
@@ -13,5 +13,5 @@ jobs:
       - uses: readmeio/github-readme-sync@v2
         with:
           readme-oas-key: ${{ secrets.README_PETSTORE_SECRET }}
-          oas-file-path: "docs/swagger-petstore.json"
+          oas-file-path: "docs/swagger-petstore.yaml"
           api-version: "v1.0.0"
